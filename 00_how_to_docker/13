@@ -1,0 +1,5 @@
+docker inspect spawning-pool -f '{{.Config.Env}}'
+# docker inspect spawning-pool
+# docker inspect -f '{{.HostConfig.RestartPolicy}}' spawning-pool
+# docker exec -it spawning-pool mysql -uroot -p
+# show databases;

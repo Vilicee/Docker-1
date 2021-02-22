@@ -1,0 +1,2 @@
+eval $(docker-machine env Char)
+#this sets the environment variables, which allow the docker commands to find the VM running the Docker daemon.

@@ -1,0 +1,2 @@
+docker service ls
+# docker service inspect -f '{{.Spec.TaskTemplate.ContainerSpec.Env}}' orbital-command

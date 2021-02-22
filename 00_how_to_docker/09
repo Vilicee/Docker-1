@@ -1,0 +1,7 @@
+# TO BUILD
+# docker pull debian
+# TO RUN
+# docker run -it --rm debian
+apt-get -y update && apt-get -y upgrade && apt-get install -y build-essential git
+# then you can git clone
+# exit debian with exit
